@@ -1,0 +1,174 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/*div {
+	outline: 2px solid red;
+}*/
+
+#wrapper{
+	/*width: 970px;*/
+	background-color:#d5d8c9;
+	padding: 10px;
+}
+
+.highlight{
+	color: #4cf3d9;
+}
+
+.header{
+	background-color: #30a29c;
+	display: inline-block;
+	margin: 10px;
+	padding: 10px;
+	width: 970px;
+}
+
+.header img{
+	height: 40px;
+	background: #30a29c;
+}
+
+.header h1{
+	padding-top: 3px;
+	padding-left: 3px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.header ul{
+	margin-left: 185px;
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	top: 10px;
+}
+
+.header li{
+	display: inline;
+	margin-left: 15px;
+}
+
+.header li a{
+	color: white;
+}
+
+#main_content {
+	color: white;
+	background: rgba(250, 226, 126, .8);
+	margin: 10px;
+	width: 990px;
+}
+
+#leftside{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.tallbox{
+	background-color: #1a484d;
+	display: inline-block;
+	width: 200px;
+	height: 450px;
+	padding: 10px;
+	margin: 10px;
+}
+
+.tallbox h3{
+	margin-bottom: 5px;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+
+.tallbox p{
+	font-size: 85%;
+	margin-bottom: 5px;
+	padding-top: 5px;
+	padding-left: 20px;
+	padding-right: 30px;
+}
+
+#center_content{
+	display: inline-block;
+	width: 745px;
+	height: 450px;
+	text-align: center;
+}
+
+#top{
+	/*display: inline-block;*/
+	vertical-align: top;
+}
+
+.smallbox{
+	background-color: #1a484d;
+	display: inline-block;
+	width: 150px;
+	height: 170px;
+	vertical-align: top;
+	margin: 10px 46px;
+}
+
+.smallbox h4{
+	text-align: left;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+.smallbox p{
+	font-size: 90%;
+	text-align: left;
+	padding-top: 5px;
+	padding-left: 20px;
+	padding-right: 30px;
+}
+
+#middle{
+	/*display: inline-block;*/
+}
+
+.mediumbox{
+	background-color: #1a484d;
+	display: inline-block;
+	text-align: left;
+	width: 290px;
+	height: 125px;
+	vertical-align: top;
+	margin: 10px 30px;
+
+}
+
+.mediumbox h4{
+	text-align: left;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+.mediumbox p{
+	font-size: 90%;
+	text-align: left;
+	padding-top: 5px;
+	padding-left: 20px;
+	padding-right: 30px;
+}
+
+.largebox{
+	background-color: #1a484d;
+	text-align: left;
+	/*display: inline-block;
+	width: 250px;*/
+	height: 130px;
+	margin: 13px 50px;
+}
+
+.largebox h4{
+	text-align: left;
+	padding-top: 20px;
+	padding-left: 10px;
+}
+
+.largebox p{
+	font-size: 90%;
+	text-align: left;
+	padding: 10px 30px 20px 20px;
